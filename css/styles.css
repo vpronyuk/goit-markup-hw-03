@@ -38,7 +38,20 @@ body {
   overflow: hidden;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+  margin: 0 auto;
+}
+
 /* --------Header-------- */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -97,6 +110,8 @@ body {
   color: var(--primary-white-color);
   text-align: center;
   text-transform: uppercase;
+  padding-top: 200px;
+  max-width: 696px;
 }
 
 .hero-button {
@@ -111,6 +126,12 @@ body {
   cursor: pointer;
   border-color: transparent;
   border-radius: 4px;
+  margin-top: 30px;
+  width: 216px;
+  max-height: 50px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 .hero-button:hover,
