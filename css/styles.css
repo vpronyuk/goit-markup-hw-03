@@ -100,6 +100,8 @@ body {
 
 .hero {
   background-color: var(--dark-bg-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -110,8 +112,8 @@ body {
   color: var(--primary-white-color);
   text-align: center;
   text-transform: uppercase;
-  padding-top: 200px;
   max-width: 696px;
+  margin: 0 auto;
 }
 
 .hero-button {
@@ -127,11 +129,8 @@ body {
   border-color: transparent;
   border-radius: 4px;
   margin-top: 30px;
-  width: 216px;
-  max-height: 50px;
   display: block;
   margin: 0 auto;
-  margin-top: 30px;
 }
 
 .hero-button:hover,
@@ -140,6 +139,11 @@ body {
 }
 
 /* --------Section Feature-------- */
+
+.feature {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .feature-list-text {
   line-height: 1.71;
@@ -151,6 +155,7 @@ body {
   line-height: 1.14;
   color: var(--primary-title-color);
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 /* --------Section Activity-------- */
@@ -161,12 +166,19 @@ body {
   line-height: 1.17;
   color: var(--primary-title-color);
   text-align: center;
+  margin-bottom: 50px;
+}
+
+.activity {
+  padding-bottom: 94px;
 }
 
 /* --------Section Our team-------- */
 
 .team {
   background-color: var(--grey-bg-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-title {
@@ -175,6 +187,7 @@ body {
   line-height: 1.17;
   color: var(--primary-title-color);
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .team-card {
@@ -189,6 +202,7 @@ body {
   line-height: 1.19;
   color: var(--primary-title-color);
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .team-role {
@@ -198,10 +212,15 @@ body {
   text-align: center;
 }
 
+.team-list {
+}
+
 /* --------Footer-------- */
 
 .footer {
   background-color: var(--dark-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -211,6 +230,7 @@ body {
   line-height: 1.19;
   color: var(--accent-color);
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .footer-logo-decoration {
