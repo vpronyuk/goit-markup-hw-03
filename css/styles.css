@@ -91,6 +91,7 @@ img {
 .header-list {
   display: flex;
   align-items: center;
+  gap: 50px;
 }
 
 .header-section {
@@ -242,6 +243,11 @@ img {
   background-color: var(--primary-white-color);
 }
 
+.team-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-member {
   font-weight: 500;
   font-size: 16px;
@@ -278,7 +284,7 @@ img {
   line-height: 1.19;
   color: var(--accent-color);
   text-decoration: none;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .footer-logo-decoration {
@@ -312,6 +318,16 @@ img {
 
 /* --------Portfolio page-------- */
 
+.portfolio-page {
+  padding-top: 94px;
+}
+
+.radiobutton-list {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
 .radiobutton-list-item {
   font-family: inherit;
   font-weight: 500;
@@ -331,6 +347,10 @@ img {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+
+/* .portfolio-cards {
+  display: flex;
+} */
 
 .cards-link {
   color: inherit;
