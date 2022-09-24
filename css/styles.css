@@ -75,8 +75,6 @@ img {
 /* --------Header-------- */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -105,6 +103,9 @@ img {
   align-items: center;
 }
 .header-list-item {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -127,6 +128,9 @@ img {
   margin-left: auto;
 }
 .header-adress-list-item {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -145,6 +149,7 @@ img {
   background-color: var(--dark-bg-color);
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
 }
 
 .hero-title {
@@ -160,18 +165,16 @@ img {
 }
 
 .hero-button {
-  display: block;
-  margin: 0 auto;
   margin-top: 30px;
-  min-width: 216px;
   padding: 10px 32px;
+  text-align: center;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
-  text-align: center;
+
   background-color: var(--accent-color);
   cursor: pointer;
   border-color: transparent;
@@ -215,7 +218,7 @@ img {
 }
 
 .activity {
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 
 .activity-list {
@@ -296,11 +299,18 @@ img {
 
 .footer-address-link {
   display: block;
-  margin-bottom: 9px;
   font-style: normal;
   color: var(--footer-link-color);
   line-height: 1.71;
   text-decoration: none;
+}
+
+.footer-list {
+  margin-bottom: 9px;
+}
+
+.footer-list:last-child {
+  margin-bottom: 0;
 }
 
 .footer-map {
@@ -309,10 +319,6 @@ img {
   line-height: 1.71;
   color: var(--primary-white-color);
   text-decoration: none;
-}
-
-.footer-address-tel {
-  margin-bottom: 0;
 }
 
 .footer-address-link:hover,
@@ -332,6 +338,7 @@ img {
 }
 
 .radiobutton-list-item {
+  padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -343,6 +350,10 @@ img {
   cursor: pointer;
   border-color: transparent;
   border-radius: 4px;
+}
+
+.button-all {
+  padding: 6px 25px;
 }
 
 .radiobutton-list-item:hover,
@@ -382,7 +393,7 @@ img {
 }
 
 .cards-content {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
   border: 1px solid #eeeeee;
+  border-top: none;
 }
