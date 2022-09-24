@@ -67,21 +67,27 @@ img {
   margin: 0 auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* --------Header-------- */
 
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-logo {
+  margin-right: 93px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
   text-decoration: none;
-  margin-right: 93px;
 }
 
 .header-logo-decoration {
@@ -142,6 +148,8 @@ img {
 }
 
 .hero-title {
+  max-width: 696px;
+  margin: 0 auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -149,11 +157,14 @@ img {
   color: var(--primary-white-color);
   text-align: center;
   text-transform: uppercase;
-  max-width: 696px;
-  margin: 0 auto;
 }
 
 .hero-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  min-width: 216px;
+  padding: 10px 32px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -165,9 +176,6 @@ img {
   cursor: pointer;
   border-color: transparent;
   border-radius: 4px;
-  margin-top: 30px;
-  display: block;
-  margin: 0 auto;
 }
 
 .hero-button:hover,
@@ -177,22 +185,17 @@ img {
 
 /* --------Section Feature-------- */
 
-.feature {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .feature-list-text {
   line-height: 1.71;
 }
 
 .feature-subtitle {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: inherit;
   line-height: 1.14;
   color: var(--primary-title-color);
   text-transform: uppercase;
-  margin-bottom: 10px;
 }
 
 .feature-list {
@@ -203,12 +206,12 @@ img {
 /* --------Section Activity-------- */
 
 .activity-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   color: var(--primary-title-color);
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .activity {
@@ -224,22 +227,19 @@ img {
 
 .team {
   background-color: var(--grey-bg-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .team-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   color: var(--primary-title-color);
   text-align: center;
-  margin-bottom: 50px;
 }
 
 .team-card {
   width: 270px;
-  height: 368px;
   background-color: var(--primary-white-color);
 }
 
@@ -249,12 +249,12 @@ img {
 }
 
 .team-member {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   color: var(--primary-title-color);
   text-align: center;
-  margin-bottom: 10px;
 }
 
 .team-role {
@@ -284,7 +284,10 @@ img {
   line-height: 1.19;
   color: var(--accent-color);
   text-decoration: none;
-  /* margin-bottom: 20px; */
+}
+
+.address {
+  margin-top: 20px;
 }
 
 .footer-logo-decoration {
@@ -292,21 +295,24 @@ img {
 }
 
 .footer-address-link {
+  display: block;
+  margin-bottom: 9px;
   font-style: normal;
   color: var(--footer-link-color);
   line-height: 1.71;
   text-decoration: none;
-  display: block;
-  margin-top: 9px;
 }
 
 .footer-map {
+  display: block;
   font-style: normal;
   line-height: 1.71;
   color: var(--primary-white-color);
   text-decoration: none;
-  display: block;
-  margin-top: 20px;
+}
+
+.footer-address-tel {
+  margin-bottom: 0;
 }
 
 .footer-address-link:hover,
@@ -318,14 +324,11 @@ img {
 
 /* --------Portfolio page-------- */
 
-.portfolio-page {
-  padding-top: 94px;
-}
-
 .radiobutton-list {
   display: flex;
   gap: 8px;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .radiobutton-list-item {
@@ -364,13 +367,13 @@ img {
 }
 
 .cards-title {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-title-color);
   text-decoration: none;
-  margin-bottom: 4px;
 }
 
 .cards-text {
@@ -381,4 +384,5 @@ img {
 .cards-content {
   padding-top: 20px;
   padding-bottom: 20px;
+  border: 1px solid #eeeeee;
 }
