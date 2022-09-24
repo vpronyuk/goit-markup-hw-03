@@ -348,9 +348,15 @@ img {
   background-color: var(--accent-color);
 }
 
-/* .portfolio-cards {
+.portfolio-cards {
   display: flex;
-} */
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cards-list-item {
+  width: calc((100% - 60px) / 3);
+}
 
 .cards-link {
   color: inherit;
@@ -364,9 +370,15 @@ img {
   letter-spacing: 0.06em;
   color: var(--primary-title-color);
   text-decoration: none;
+  margin-bottom: 4px;
 }
 
 .cards-text {
   font-size: 16px;
   line-height: 1.87;
+}
+
+.cards-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
