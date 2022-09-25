@@ -353,10 +353,6 @@ img {
   border-radius: 4px;
 }
 
-.button-all {
-  padding: 6px 25px;
-}
-
 .radiobutton-list-item:hover,
 .radiobutton-list-item:focus {
   color: var(--primary-white-color);
@@ -395,6 +391,7 @@ img {
 
 .cards-content {
   padding: 20px 24px;
-  border: 1px solid #eeeeee;
-  border-top: none;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left-style: 1px solid #eeeeee;
 }
